@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+#login-form {
+	margin:5% auto;
+	max-width:500px;
+}
+/* home page */
+#wrapper{
+	padding-top:50px;
+}
+
+
+.text-danger {
+	color: hsla(0, 369%, 60%, 1) !important;
+}
+.btn-block {
+    
+    color: #ffffff !important;
+    background-color: #8abe40 !important;
+    border-color: #7cab3a !important;
+}
+
+.without :: -webkit-datetime-edit-ampm-field{
+  display: none;
+}
+
+
+input[type=time]::-webkit-clear-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+ }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+  }
+.navbar-default .navbar-nav > li > a {
+    color: rgb(177, 169, 169);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #8aa913 !important;
+    background-color: transparent !important;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    width: 100%;
+    color: black !important;
+    background-color: #8abe40 !important;
+    border-color: #7cab3a !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #080808 !important;
+    background-color: #e7e7e7 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #9d9d9d !important;
+}
